@@ -1,0 +1,332 @@
+
+@font-face
+ {
+    font-family: 'Raleway';
+    src: url('Police/Raleway.ttf') format('ttf'),
+         url('Police/Raleway-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+#Page
+{
+ font-family: Raleway;
+ margin-left: 10%;
+ margin-right: 10%;
+
+}
+
+#Titre
+{
+    color:#0065FC;
+    font-style: italic;
+}
+header h2
+
+{
+    position: absolute;
+    left: 10%;
+    top:8%;
+}
+header h3
+
+{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    font-weight: lighter;
+}
+
+
+
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    margin-right: 3px;
+    text-align: end;
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    
+}
+
+nav a
+{
+    margin-right: 15px;
+    color: black;
+  text-decoration: none;
+    padding-bottom: 3px;
+    
+}
+
+nav a:hover
+{
+   text-decoration: overline;
+    color: blue;
+      
+}
+
+#titre
+{
+    color: blue;
+}
+
+
+
+#logo
+{
+    background-color: grey;
+    border:0px grey solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+     height: 10px;
+     padding: 1%
+     
+    
+}
+button
+{
+    color: white;
+    background-color: blue;
+    border: 1px blue solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 30px;        
+}
+#Filtres
+{
+    display: Flex;
+    font-size: 1.1em;
+          
+}
+
+#Filtres .fas
+{
+    position: relative;
+    top: 0%;
+    left: -3%;
+    background-color:rgb(222, 235,255)
+}
+
+.fas 
+{
+    color: #0065FC;
+  
+}
+
+#Animaux, #Eco, #Fam, #Rom
+{   display: flex;
+    flex-wrap: nowrap;
+    border:2px rgb(217, 217, 217) solid;
+    border-radius: 30px;
+    margin-left: 10px;
+    padding-right: 1%;  
+   text-align: justify;   
+}
+
+#Animaux:hover, #Eco:hover, #Fam:hover, #Rom:hover
+{
+    border:1px grey solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 2px;
+    color:blue;
+    font-weight: bold;
+
+}
+
+#Filtres i
+{   
+      color:#0065FC;
+          border-radius: 30px;
+   padding: 8px;
+  
+   
+    
+}
+
+
+#star
+{
+    color: #0065FC;
+}
+
+#hebergement 
+{
+   width: 80%;
+   background-color: #F2F2F2;
+   border: 3px #F2F2F2 solid;
+   border-radius: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: 5%;
+   padding: 2%;
+}
+
+#hebergement div
+{
+    background-color: white;
+    border: 0px white solid;
+    border-radius: 10px;
+    margin-right: 1%;
+    margin-bottom: 3%;
+   
+   
+    
+}
+
+#hebergement img
+
+{   
+    Margin-top: -5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+             border: 0px white solid;
+    border-radius: 10px;
+    width: 230px;
+    height: 114px;
+   
+    
+}
+
+.fa-star
+{
+    color:blue;
+}
+
+#Section
+{
+    display: flex;
+}
+
+#hebergement h3
+{
+    width:100%;
+}
+
+#populaires
+{  display: flex;
+   flex-direction: column;
+   width: 35%;
+   background-color: #F2F2F2;
+   border: 0px #F2F2F2 solid;
+   border-radius: 10px;
+   padding: 2%;
+
+}
+
+#populaires div
+{
+    background-color: white;
+    border: 2px white solid;
+    border-radius: 10px;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    
+   
+    
+}
+
+#populaires img
+{
+    margin-top: -5%;
+    border: 0px white solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 133px;
+    height: 126px;
+    float: left;
+   
+    
+}
+
+
+#activité
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    padding: 2%;
+    align-content: space-between;
+    text-align: start;
+        
+}
+
+
+#activité img
+{
+   
+    border: 0px white solid;
+    border-radius: 10px;
+    margin-top: -15px;   
+      box-sizing: border-box; 
+    
+    
+}
+
+#activité h3
+{
+    width:100%;
+}
+
+#activité div
+{  
+    background-color: rgb(248,248,248);
+     border: 0px white solid;
+    border-radius: 10px;
+    margin-right: 1%;
+    margin-bottom: 3%;
+        
+}
+
+
+.fort img, .frioul img, .notre_dame img, .longchamps img
+
+{
+    width: 304px;
+    height: 134px;
+}
+
+.vieuxport img, .callanques img
+
+{
+    width: 300px;
+    height: 385px;
+}
+
+#graph
+{
+    margin-left: 4%;
+}
+
+footer
+{
+    position: static;
+    bottom: 3%;
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+footer ul
+{
+    list-style-type: none;
+  
+   
+}
+
+footer section
+{
+   width: 33%;
+}
